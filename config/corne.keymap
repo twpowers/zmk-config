@@ -33,9 +33,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q  &kp W  &kp F  &kp R         &kp B        &kp J    &kp L          &kp U      &kp Y    &kp SEMICOLON  &trans
-&trans  &kp A  &kp S  &kp D  &kp T         &kp G        &kp M    &kp N          &kp E      &kp L    &kp O          &trans
-&trans  &kp Z  &kp X  &kp C  &kp V         &kp V        &kp K    &kp H          &kp COMMA  &kp DOT  &kp FSLH       &trans
+&trans  &kp Q  &kp W  &kp F  &kp P         &kp B        &kp J    &kp L          &kp U      &kp Y    &kp SEMICOLON  &trans
+&trans  &kp A  &kp R  &kp S  &kp T         &kp G        &kp M    &kp N          &kp E      &kp L    &kp O          &trans
+&trans  &kp Z  &kp X  &kp C  &kp D         &kp V        &kp K    &kp H          &kp COMMA  &kp DOT  &kp FSLH       &trans
                       &mo 1  &kp LEFT_ALT  &kp SPACE    &kp RET  &kp BACKSPACE  &mo 2
             >;
         };
@@ -63,10 +63,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL   &kp AT           &kp HASH      &kp DLLR  &kp PRCNT    &kp PERCENT  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
-&kp LCTRL  &kp TILDE  &kp EXCLAMATION  &kp QUESTION  &trans    &kp HASH     &kp PERIOD   &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&kp LSHFT  &trans     &trans           &trans        &trans    &kp F12      &kp DOLLAR   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &trans
-                                       &kp LGUI      &kp CLCK  &kp SPACE    &kp RET      &trans        &kp RALT
+&kp TAB    &kp EXCL   &kp PLUS         &kp MINUS     &kp EQUAL  &kp PRCNT    &kp PERCENT  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
+&kp LCTRL  &kp TILDE  &kp EXCLAMATION  &kp QUESTION  &trans     &kp HASH     &kp PERIOD   &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&kp LSHFT  &trans     &trans           &trans        &trans     &kp F12      &kp DOLLAR   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &trans
+                                       &kp LGUI      &kp CLCK   &kp SPACE    &kp RET      &trans        &kp RALT
             >;
         };
 
