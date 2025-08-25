@@ -19,8 +19,8 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q  &kp W  &kp E  &kp R         &kp B        &kp J    &kp L          &kp U      &kp Y    &kp SEMICOLON  &trans
-&trans  &kp A  &kp S  &kp D  &kp F         &kp G        &kp M    &kp N          &kp E      &kp L    &kp O          &trans
+&trans  &kp Q  &kp W  &kp F  &kp R         &kp B        &kp J    &kp L          &kp U      &kp Y    &kp SEMICOLON  &trans
+&trans  &kp A  &kp S  &kp D  &kp T         &kp G        &kp M    &kp N          &kp E      &kp L    &kp O          &trans
 &trans  &kp Z  &kp X  &kp C  &kp V         &kp V        &kp K    &kp H          &kp COMMA  &kp DOT  &kp FSLH       &trans
                       &mo 1  &kp LEFT_ALT  &kp SPACE    &kp RET  &kp BACKSPACE  &mo 2
             >;
