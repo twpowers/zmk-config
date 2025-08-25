@@ -8,6 +8,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        right_contrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 20 21>;
+        };
+
+        left_shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <16 15 14>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -34,10 +48,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp TILDE      &kp LESS_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN    &kp N6   &kp N7    &kp N8    &kp N9        &kp N0     &kp BSPC
-&trans  &kp GRAVE      &kp UNDER      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND       &trans   &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &kp BACKSLASH  &kp AT_SIGN    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE            &trans   &trans    &trans    &trans        &trans     &trans
-                                      &kp LGUI              &trans                 &kp SPACE           &kp RET  &trans    &kp RALT
+&trans  &kp TILDE      &kp LESS_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN    &kp N6   &kp N7          &kp N8    &kp N9        &kp N0     &kp BSPC
+&trans  &kp GRAVE      &kp UNDER      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND       &trans   &kp LEFT        &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &kp BACKSLASH  &kp AT_SIGN    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE            &trans   &trans          &trans    &trans        &trans     &trans
+                                      &kp LGUI              &trans                 &kp SPACE           &kp RET  &kp LEFT_SHIFT  &kp RALT
             >;
         };
 
