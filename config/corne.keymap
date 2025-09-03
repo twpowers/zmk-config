@@ -51,9 +51,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp TILDE      &kp LESS_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN    &kp N6   &kp N7                     &kp N8    &kp N9        &kp N0     &kp BSPC
-&trans  &kp GRAVE      &kp UNDER      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND       &trans   &kp LEFT                   &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &kp BACKSLASH  &kp AT_SIGN    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE            &trans   &kt LEFT_SHIFT             &trans    &trans        &sl 3      &trans
+&trans  &kp TILDE      &kp LESS_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN    &kp N6   &kp N7                     &kp N8    &kp N9          &kp N0     &kp BSPC
+&trans  &kp GRAVE      &kp UNDER      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND       &trans   &kp LEFT                   &kp DOWN  &kp UP_ARROW    &kp RIGHT  &trans
+&trans  &kp BACKSLASH  &kp AT_SIGN    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE            &trans   &kt LEFT_SHIFT             &trans    &studio_unlock  &sl 3      &trans
                                       &kp LGUI              &trans                 &kp SPACE           &kp RET  &mt LEFT_SHIFT LEFT_SHIFT  &kp RALT
             >;
         };
@@ -83,12 +83,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        bt {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
