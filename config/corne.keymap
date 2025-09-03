@@ -16,6 +16,7 @@
             bindings = <&sk RCTRL>;
             key-positions = <19 20 21>;
             layers = <0>;
+            timeout-ms = <500>;
         };
 
         left_shift {
