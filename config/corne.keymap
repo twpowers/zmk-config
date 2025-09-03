@@ -29,6 +29,11 @@
             key-positions = <37 28>;
             layers = <0>;
         };
+
+        alt-tab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <37 21>;
+        };
     };
 
     keymap {
