@@ -29,6 +29,11 @@
             key-positions = <37 20>;
             layers = <0>;
         };
+
+        double_dot {
+            bindings = <&kp COLON>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
@@ -72,10 +77,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL   &kp PLUS         &kp MINUS     &kp EQUAL       &kp PRCNT    &kp PERCENT  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
-&kp LCTRL  &kp TILDE  &kp EXCLAMATION  &kp QUESTION  &sk LEFT_SHIFT  &kp HASH     &kp PERIOD   &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&kp LSHFT  &trans     &trans           &trans        &kp ESCAPE      &kp F12      &kp DOLLAR   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &trans
-                                       &kp LGUI      &kp CLCK        &kp SPACE    &kp RET      &trans        &kp RALT
+&kp TAB    &kp EXCL   &kp PLUS         &kp MINUS     &kp EQUAL         &kp PRCNT    &kp PERCENT  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
+&kp LCTRL  &kp TILDE  &kp EXCLAMATION  &kp QUESTION  &sk LEFT_SHIFT    &kp HASH     &kp PERIOD   &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&kp LSHFT  &trans     &trans           &kp ESCAPE    &sk LEFT_CONTROL  &kp F12      &kp DOLLAR   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &trans
+                                       &kp LGUI      &kp CLCK          &kp SPACE    &kp RET      &trans        &kp RALT
             >;
         };
 
