@@ -21,7 +21,7 @@
 
         left_shift {
             bindings = <&sk LEFT_SHIFT>;
-            key-positions = <14>;
+            key-positions = <14 37>;
             layers = <0>;
         };
 
