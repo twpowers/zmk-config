@@ -21,13 +21,19 @@
 
         left_shift {
             bindings = <&sk LEFT_SHIFT>;
-            key-positions = <16 15 14>;
+            key-positions = <14>;
             layers = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <37 16>;
+            layers = <0>;
+        };
+
+        ctrl2 {
+            bindings = <&kp LCTRL>;
+            key-positions = <37 28>;
             layers = <0>;
         };
     };
