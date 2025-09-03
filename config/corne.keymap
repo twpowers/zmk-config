@@ -12,13 +12,13 @@
         compatible = "zmk,combos";
 
         right_contrl {
-            bindings = <&kp RCTRL>;
+            bindings = <&sk RCTRL>;
             key-positions = <19 20 21>;
             layers = <0>;
         };
 
         left_shift {
-            bindings = <&kp LEFT_SHIFT>;
+            bindings = <&sk LEFT_SHIFT>;
             key-positions = <16 15 14>;
             layers = <0>;
         };
