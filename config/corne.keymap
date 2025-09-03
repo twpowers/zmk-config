@@ -12,12 +12,6 @@
     combos {
         compatible = "zmk,combos";
 
-        left_shift {
-            bindings = <&sk LEFT_SHIFT>;
-            key-positions = <14 37>;
-            layers = <0>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <37 16>;
@@ -32,7 +26,7 @@
 
         alt-tab {
             bindings = <&kp LA(TAB)>;
-            key-positions = <37 21>;
+            key-positions = <37 20>;
             layers = <0>;
         };
     };
@@ -78,10 +72,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL   &kp PLUS         &kp MINUS     &kp EQUAL   &kp PRCNT    &kp PERCENT  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
-&kp LCTRL  &kp TILDE  &kp EXCLAMATION  &kp QUESTION  &kp ESCAPE  &kp HASH     &kp PERIOD   &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&kp LSHFT  &trans     &trans           &trans        &trans      &kp F12      &kp DOLLAR   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &trans
-                                       &kp LGUI      &kp CLCK    &kp SPACE    &kp RET      &trans        &kp RALT
+&kp TAB    &kp EXCL   &kp PLUS         &kp MINUS     &kp EQUAL       &kp PRCNT    &kp PERCENT  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
+&kp LCTRL  &kp TILDE  &kp EXCLAMATION  &kp QUESTION  &sk LEFT_SHIFT  &kp HASH     &kp PERIOD   &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&kp LSHFT  &trans     &trans           &trans        &kp ESCAPE      &kp F12      &kp DOLLAR   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &trans
+                                       &kp LGUI      &kp CLCK        &kp SPACE    &kp RET      &trans        &kp RALT
             >;
         };
 
